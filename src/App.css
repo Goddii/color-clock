@@ -5,8 +5,18 @@
 
 body{
   transition: background 1s ease-in-out;
-    background: #2c3e50;
-  background: linear-gradient(125deg, #2c3e50 0%, #3498db 100%);
+    /* background: #2c3e50;
+  background: linear-gradient(125deg, #2c3e50 0%, #3498db 100%); */
+}
+
+/* Theme 1 - Light/Blue-Yellow */
+body.theme-one {
+  background: linear-gradient(125deg, #00e5ff 0%, #ffeb3b 100%);
+}
+
+/* Theme 2 - Dark/Purple */
+body.theme-two {
+  background: linear-gradient(125deg, #0f0c29, #302b63, #24243e);
 }
 
 
