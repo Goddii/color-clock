@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
-  
+  // set useState for the button
   const [click, setIsClicked] = useState(false)
 
 
@@ -37,7 +37,8 @@ function App() {
       style={{
         border: "none",
         padding: "10px 20px",
-        backgroundColor: "grey"
+        backgroundColor: "aqua",
+        borderRadius: "10px"
       }}  
       >
         Toggle Theme
