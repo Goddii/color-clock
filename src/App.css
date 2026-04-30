@@ -5,8 +5,6 @@
 
 body{
   transition: background 1s ease-in-out;
-    /* background: #2c3e50;
-  background: linear-gradient(125deg, #2c3e50 0%, #3498db 100%); */
 }
 
 /* Theme 1 - Light/Blue-Yellow */
@@ -16,10 +14,9 @@ body.theme-one {
 
 /* Theme 2 - Dark/Purple */
 body.theme-two {
-  background: linear-gradient(125deg, #0f0c29, #302b63, #24243e);
+    background: linear-gradient(125deg, #2c3e50 0%, #3498db 100%); 
+
 }
-
-
 
 .app-container {
   display: flex;
